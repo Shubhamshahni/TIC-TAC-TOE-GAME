@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    text-align: center;
+    background-color: #FDF6E3;
+}
+
+.heading1{
+    color:#ffe57f;
+    background-color: #bb2649;
+    font-weight: 900;
+    font-size: larger;
+    text-align: center;
+    height: 50px;
+  margin-top: 40px;
+}
+
+.container{
+    height: 75vh;
+/* margin-top: 40px; */
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.game{
+    height:64vmin;
+    width:61vmin;
+    /* border: 3px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+position: absolute;
+top: 150px;
+    flex-wrap: wrap;
+    gap: 6px;
+    border-radius: 1rem;
+  
+}
+
+.button{
+    border: 2px solid black;
+    height: 19vmin;
+    width: 19vmin;
+    background-color:#dda15e;
+font-size: 9vmin;
+color: red;
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 1rem;
+box-shadow: 0 0 1rem rgba(0, 0, 0 , 0.3);
+}
+
+/* .button2{
+    border: 2px solid black;
+    height: 19vmin;
+    width: 19vmin;
+    background-color:aqua;
+font-size: 9vmin;
+color: rgb(5, 43, 236);
+display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 1rem;
+box-shadow: 0 0 1rem rgba(0, 0, 0 , 0.3);
+} */
+
+.reset{
+    height: 60px;
+    width: 410px;
+    background-color: #fb8500;
+    font-weight: 600;
+    font-size: 5vmin;
+    border-radius: 1rem;
+    border: 2px solid black;
+}
+
+#winnner{
+    height: 40px;
+    width: 410px;
+    background-color: rgb(32, 193, 29);
+    font-weight: 600;
+    font-size: 5vmin;
+    border-radius: 1rem;
+    /* border: 2px solid red; */
+
+
+}
+
+.display-msg{
+    border: 2px solid black;
+    /* margin-top:-500px; */
+    gap: 10px;
+    z-index: 1;
+    height: 50px;
+    width: 410px;
+    background-color: #FFD700;
+    font-weight: 500;
+    font-size: 5vmin;
+    border-radius: 1rem;
+    /* border: 2px solid red; */
+    position: absolute;
+    /*    
+        top: 365px;
+        right: 582px; */
+    
+        justify-content: center;
+        align-items: center;
+        border: none;
+}
+
+#new-game-btn{
+    color: white;
+    height: 45px;
+    width: 200px;
+    background-color:#4CAF50;
+    font-weight: 600;
+    font-size: 3vmin;
+    border-radius: 10px;
+   margin-top: 30px;
+   border: none;
+}
+
+.hide{
+    display: none;
+}
+
+
