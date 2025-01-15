@@ -26,7 +26,7 @@ To get started with the Tic Tac Toe game:
    ```bash
 
 
-Contributing:
+CONTRIBUTING:
 Feel free to fork the repository and contribute! Open a pull request if you want to suggest improvements or fix any bugs.
 
 ![image](https://github.com/user-attachments/assets/0a9e0a8e-7e2c-4fcf-8e86-6403579fc3a3)
